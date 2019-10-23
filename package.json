@@ -1,0 +1,8 @@
+{
+  "name": "delivery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mauriciomutte/delivery.git",
+  "author": "Mauricio Mutte <litiobr@gmail.com>",
+  "license": "MIT"
+}
