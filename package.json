@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "https://github.com/mauriciomutte/delivery.git",
   "author": "Mauricio Mutte <litiobr@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.18.3"
+  }
 }
