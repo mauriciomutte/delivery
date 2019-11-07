@@ -32,6 +32,7 @@ const GlobalStyles = createGlobalStyle`
     display: block;
   }
   body {
+		font-family: 'Montserrat', sans-serif;
     line-height: 1;
   }
   ol, ul {
