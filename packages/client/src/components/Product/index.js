@@ -13,6 +13,6 @@ export default ({ ...props }) => {
 			<S.Image>
 				<img src={props.img} alt="" />
 			</S.Image>
-		</S.Product >
+		</S.Product>
 	);
 };
