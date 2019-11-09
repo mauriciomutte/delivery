@@ -3,31 +3,36 @@ import styled from 'styled-components';
 export const Product = styled.div`
 	display: flex;
 	border: 1px solid #ccc;
-	width: 400px;
-	margin: 2em 4em;
+	max-width: 340px;
+	margin: 1em;
+	padding: 1em;
+	border-radius: 5px;
 `;
 
 export const Info = styled.div`
-	padding: 1em;
+	margin-right: 5px;
 `;
 
 export const Title = styled.h3`
-	font-size: 19px;
+	font-size: 16px;
 	margin-bottom: 6px;
 `;
 
 export const Description = styled.p`
-	font-size: 14px;
+	font-size: 12px;
+	color: #0008;
 `;
 
 export const Price = styled.span`
+	font-size: 13px;
 	display: block;
-	padding-top: 20px;
+	padding-top: 10px;
 `;
 
 export const Image = styled.div`
 	img {
+		border-radius: 3px;
 		height: 100%;
-		width: 150px;
+		width: 100px;
 	}
 `;
