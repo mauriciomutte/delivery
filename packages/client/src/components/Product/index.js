@@ -4,7 +4,7 @@ import * as S from './style';
 
 export default ({ ...props }) => {
 	return (
-		<S.Product>
+		<S.Product href={props.link}>
 			<S.Info>
 				<S.Title>{props.name}</S.Title>
 				<S.Description>{props.description}</S.Description>

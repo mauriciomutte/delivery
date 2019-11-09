@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 
-export const Product = styled.div`
+export const Product = styled.a`
+	color: #000;
 	display: flex;
 	border: 1px solid #ccc;
-	margin: 10px 0;
 	border-radius: 5px;
 	flex-basis: 100%;
+	margin: 10px 0;
+	text-decoration: none;
 `;
 
 export const Info = styled.div`
