@@ -8,6 +8,11 @@ export const Product = styled.a`
 	flex-basis: 100%;
 	margin: 10px 0;
 	text-decoration: none;
+
+	@media (min-width: 1000px) {
+		max-width: 340px;
+		margin: 0 1em 1em 0;
+	}
 `;
 
 export const Info = styled.div`
