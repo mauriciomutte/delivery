@@ -6,7 +6,7 @@ export default ({ ...props }) => {
 	return (
 		<S.Product href={props.link}>
 			<S.Info>
-				<S.Title>{props.name}</S.Title>
+				<S.Name>{props.name}</S.Name>
 				<S.Description>{props.description}</S.Description>
 				<S.Price>{props.price}</S.Price>
 			</S.Info>

@@ -24,7 +24,7 @@ export const Info = styled.div`
 	}
 `;
 
-export const Title = styled.h3`
+export const Name = styled.h3`
 	font-size: 16px;
 	overflow: hidden;
 	text-overflow: ellipsis;
